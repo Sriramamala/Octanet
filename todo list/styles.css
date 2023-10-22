@@ -1,0 +1,66 @@
+ /* ----body---- */
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: sans-serif;
+    border: 10px solid #2980b9;
+}
+
+ /* ---header---- */
+header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.todo-item, .priority-item {
+    
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-todo,
+#add-priority {
+    background-color: #00AABB;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 700;
+}
+
+#add-todo:hover,
+#add-priority:hover {
+    background-color: #0056b3;
+}
+
+#add-todo {
+    margin-right: 50px;
+}
+
+/* ----delete button---- */
+.delete-button {
+    background-color: #e74c3c;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* ----footer---- */
+footer {
+    text-align: center;
+    background-color: #3498db;
+    padding: 10px;
+    font-family: sans-serif;
+}
